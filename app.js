@@ -2,11 +2,11 @@ import express from "express";
 import bodyParser from "body-parser";
 import connectDB from "./db.js";
 import productRoutes from "./routes/products.js";
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 
 const app = express();
 
-dotenv.config()
+dotenv.config();
 
 connectDB();
 
